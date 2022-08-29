@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/buttonlayout"
+        android:gravity="center">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="72dp"
+            android:layout_width="72dp"
+            app:cornerRadius="36dp"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:text="C"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="72dp"
+            android:layout_width="72dp"
+            app:cornerRadius="36dp"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:text="("/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="72dp"
+            android:layout_width="72dp"
+            app:cornerRadius="36dp"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:text=")"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="72dp"
+            android:layout_width="72dp"
+            app:cornerRadius="36dp"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:backgroundTint="@color/black"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:text="/"/>
+
+
+
+
+
+
+
+
+
+</GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="7"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="8"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="9"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/black"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="*"/>
+
+
+
+
+
+
+
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="4"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="5"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="6"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/black"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="-"/>
+
+
+
+
+
+
+
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="1"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="2"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="3"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_height="72dp"
+                android:layout_width="72dp"
+                app:cornerRadius="36dp"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/black"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:text="-"/>
+
+
+
+
+
+
+
+
+
+        </GridLayout>
