@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill_horizontal">
+
+        </EditText>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bu1"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="1"
+            />
+        <Button
+            android:id="@+id/bu2"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="2"
+
+            />
+        <Button
+            android:id="@+id/bu3"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="3"
+            />
+        <Button
+            android:id="@+id/buplus"
+            android:onClick="OperatorEvent"
+            android:backgroundTint="@color/black"
+            android:text="+"
+            />
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bu4"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="4"
+            />
+        <Button
+            android:id="@+id/bu5"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="5"
+            />
+        <Button
+            android:id="@+id/bu6"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="6"
+            />
+        <Button
+            android:id="@+id/buminus"
+            android:onClick="OperatorEvent"
+            android:backgroundTint="@color/black"
+            android:text="-"
+            />
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bu7"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="7"
+            />
+        <Button
+            android:id="@+id/bu8"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="8"
+            />
+        <Button
+            android:id="@+id/bu9"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="9"
+            />
+        <Button
+            android:id="@+id/bumul"
+            android:onClick="OperatorEvent"
+            android:backgroundTint="@color/black"
+            android:text="*"
+            />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bu0"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="0"
+            />
+        <Button
+            android:id="@+id/budivide"
+            android:onClick="OperatorEvent"
+            android:backgroundTint="@color/black"
+            android:text="/"
+            />
+
+        <Button
+            android:id="@+id/bu1equals"
+            android:onClick="EqualEvent"
+            android:backgroundTint="@color/black"
+            android:text="="
+            />
+
+        <Button
+            android:id="@+id/bu1clr"
+            android:onClick="NumberEvent"
+            android:backgroundTint="@color/black"
+            android:text="Clr"
+            />
+
+
+    </GridLayout>
+
+
+
+
+</GridLayout>
