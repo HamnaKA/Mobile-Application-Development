@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Details"
+        android:textSize="25dp"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Full Name -"
+        android:id="@+id/full"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="User Name -"
+        android:id="@+id/user"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Email -"
+        android:id="@+id/email"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Password -"
+        android:id="@+id/pass"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Gender -"
+        android:id="@+id/gender"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+</LinearLayout>

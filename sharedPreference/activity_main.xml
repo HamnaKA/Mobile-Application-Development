@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/owhite"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Full Name"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User Name"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/cpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Male" />
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_marginLeft="50dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="Register"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
